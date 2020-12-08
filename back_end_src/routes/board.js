@@ -21,25 +21,6 @@ var client = mysql.createConnection({
 });
 
 
-// REST.prototype.connectMysql = function() {
-//   var self = this;
-//   var pool      =    mysql.createPool({
-//       connectionLimit : 100,
-//       waitForConnections : true,
-//       queueLimit :0,
-//       host     : 'myremotehost',
-//       user     : '',
-//       password : '',
-//       database : 'mother51_moastage',
-//       debug    :  true,
-//       wait_timeout : 28800,
-//       connect_timeout :10
-//   });
-//   self.configureExpress(pool);
-// }
-
-
-
 // 자유게시판 글 목록 불러오기
 router.post('/boardlist1', (req, res, next) => {
     var number = Number(req.body.number)
