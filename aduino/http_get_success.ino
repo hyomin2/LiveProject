@@ -5,9 +5,9 @@
 
 //LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-const char *ssid = "iptime_hyomin";
-const char *password = "min23320009";
-const char* host = "https://www.minback.com";
+const char *ssid = "";
+const char *password = "";
+const char* host = "";
 
 int ledPin1 = 13;      // D6번 LED 
 int ledPin2 = 12;      // D7번 LED 
