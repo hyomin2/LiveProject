@@ -1,7 +1,7 @@
 # 프로젝트 이름 : LiveProject
 # 한경대학교 컴퓨터공학과 sc트랙 졸업 작품 포트폴리오
 
-소개 영상 : https://youtu.be/qBH8OKNW_4w
+제작 유튜브 영상 : https://youtu.be/qBH8OKNW_4w
 
 포트폴리오(구글ppt) : https://docs.google.com/presentation/d/1fYOJ_aWTI65R6cHdaA124YsGLBOBDUoTKiLbxpzHiPw/edit?usp=sharing
 
