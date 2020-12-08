@@ -52,7 +52,7 @@ router.post('/emailcheck', (req, res) => {
             });
 
             var mailOptions = {
-                from: "bigjoy222@naver.com",
+                from: "",
                 to: req.body.email,
                 subject: "[Live Project] 회원가입 이메일 인증번호입니다.",
                 html: emailsend
@@ -94,7 +94,7 @@ router.post('/idfind', (req, res) => {
                 idsend = data;
             });
             var mailOptions = {
-                from: "bigjoy222@naver.com",
+                from: "",
                 to: req.body.email,
                 subject: "[Live Project] 아이디 찾기 인증번호입니다.",
                 html: idsend
