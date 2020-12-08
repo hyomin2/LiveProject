@@ -7,9 +7,9 @@ var ejs = require('ejs');
 // var appDir = path.dirname(require.main.filename);
 
 var smtpTransport = nodemailer.createTransport({
-    service: "naver",
-    host: "smtp.naver.com",
-    port: 587,
+    service: "",
+    host: "",
+    port: ,
     secure: false,
     auth: {
         user: "",
